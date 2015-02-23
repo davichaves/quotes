@@ -14,6 +14,7 @@
 		93D08B161A952EB300D635C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D08B151A952EB300D635C0 /* Images.xcassets */; };
 		93D08B191A952EB300D635C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93D08B171A952EB300D635C0 /* LaunchScreen.xib */; };
 		93D08B251A952EB300D635C0 /* quotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D08B241A952EB300D635C0 /* quotesTests.m */; };
+		93D08B301A95317200D635C0 /* QuotesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D08B2F1A95317200D635C0 /* QuotesModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		93D08B1E1A952EB300D635C0 /* quotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D08B231A952EB300D635C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93D08B241A952EB300D635C0 /* quotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quotesTests.m; sourceTree = "<group>"; };
+		93D08B2E1A95317200D635C0 /* QuotesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotesModel.h; sourceTree = "<group>"; };
+		93D08B2F1A95317200D635C0 /* QuotesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotesModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				93D08B0F1A952EB300D635C0 /* ViewController.h */,
 				93D08B101A952EB300D635C0 /* ViewController.m */,
 				93D08B121A952EB300D635C0 /* Main.storyboard */,
+				93D08B2E1A95317200D635C0 /* QuotesModel.h */,
+				93D08B2F1A95317200D635C0 /* QuotesModel.m */,
 				93D08B151A952EB300D635C0 /* Images.xcassets */,
 				93D08B171A952EB300D635C0 /* LaunchScreen.xib */,
 				93D08B081A952EB300D635C0 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				93D08B111A952EB300D635C0 /* ViewController.m in Sources */,
 				93D08B0E1A952EB300D635C0 /* AppDelegate.m in Sources */,
+				93D08B301A95317200D635C0 /* QuotesModel.m in Sources */,
 				93D08B0B1A952EB300D635C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
