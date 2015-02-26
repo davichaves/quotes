@@ -38,6 +38,10 @@
                             <constraint firstItem="cQ0-2p-Jj5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="369" id="om6-BL-yoK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Author" destination="cQ0-2p-Jj5" id="k6Z-49-2lX"/>
+                        <outlet property="Quote" destination="imn-k3-92T" id="Bkc-Mq-3eE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

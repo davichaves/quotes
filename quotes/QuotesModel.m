@@ -18,12 +18,14 @@
     self = [super init];
     if (self) {
         current = 0;
+        quotes = [[NSMutableArray alloc] init];
     }
     return self;
 }
 
 - (NSDictionary *) randomQuote {
-    return [self quoteAtIndex:rand()];
+    current = rand();
+    return [self quoteAtIndex:current];
 }
 
 - (NSUInteger) numberOfQuotes {

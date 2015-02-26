@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QuotesModel.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *Quote;
+@property (weak, nonatomic) IBOutlet UILabel *Author;
 
 @end
 

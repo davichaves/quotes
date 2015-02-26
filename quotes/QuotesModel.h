@@ -12,6 +12,7 @@
 
 @property NSMutableArray *quotes;
 
+- (instancetype)init;
 - (NSDictionary *) randomQuote;
 - (NSUInteger) numberOfQuotes;
 - (NSDictionary *) quoteAtIndex: (NSUInteger) index;
